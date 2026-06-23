@@ -1,0 +1,3 @@
+# Local raw WhatsApp archives/state: keep private on VM, do not push to GitHub.
+raw/whatsapp/*.jsonl
+state/collector-state.json
