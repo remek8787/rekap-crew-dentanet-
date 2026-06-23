@@ -26,6 +26,8 @@ Collector berjalan sebagai systemd user timer non-AI:
 
 Collector hanya membaca log OpenClaw dan menulis JSONL. Tidak memanggil model AI, jadi tidak memakai token. Token baru dipakai saat Tuan Besar meminta Alvii menganalisis/filter rekap.
 
+Catatan penting: jangan membuat cron/OpenClaw agent otomatis untuk menganalisis, merekap, atau mengirim laporan sebelum Tuan Besar meminta. Tidak ada laporan proaktif; hanya arsip pasif.
+
 ## Struktur
 - `blueprint/` — SOP dan aturan kerja.
 - `tools/` — alat bantu non-AI untuk ekstraksi/collector.

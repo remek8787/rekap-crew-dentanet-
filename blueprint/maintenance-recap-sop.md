@@ -11,6 +11,7 @@ Menyimpan semua pesan jadwal maintenance/perbaikan dari group secara pasif, lalu
 - Semua pesan group yang relevan dibiarkan masuk dulu ke sisi Alvii/collector.
 - Collector otomatis hanya mengarsipkan raw message; tidak menganalisis dengan AI dan tidak memakai token.
 - Analisis/filter baru dilakukan saat Tuan Besar meminta.
+- Jangan membuat cron/OpenClaw agent otomatis untuk menganalisis, merekap, atau mengirim laporan sebelum Tuan Besar meminta. Hemat token: tidak ada laporan proaktif.
 
 ## Jadwal rekap
 - Rekap harian default: sekitar 15:00 WITA (`Asia/Makassar`) bila diminta/diaktifkan.
